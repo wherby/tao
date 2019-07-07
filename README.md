@@ -8,7 +8,7 @@ The project is origin from https://github.com/deltaskelta/react-awesome-resume
 1. update the infomation in src/person.js to your own infomation
 2. modify   ["homepage": "https://wherby.github.io/tao/"] field in package.json to your github repo
 3. maybe you need to set your SSH connection of github authetication
-4. you can "npm start" to build web in your local and "npm run deloy" to deploy your resume on the github which url is the homepage value setting in package.json
+4. you can "npm start" to build web in your local and "npm run deploy" to deploy your resume on the github which url is the homepage value setting in package.json
 
 
 ## The following is the react infomation you may need to debug the project.
