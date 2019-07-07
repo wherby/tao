@@ -26,13 +26,23 @@ export const person = {
   },
   work: [
     {
+      company: 'PwC',
+      position: 'Senior Solution Specialist',
+      website: '',
+      startDate: '2018-07-09',
+      endDate: 'present',
+      summary: 'Join PwC Digtal Solution team, setup Scala based development team from zero,\
+        lead the development for PFIC project',
+      highlights: ["Scala", "Play", "ReactJS", "Slick", "Kubernate"],
+    },
+    {
       company: 'Oracle',
       position: 'Principal member of the technical staff',
       website: '',
       startDate: '2018-01-26',
-      endDate: 'present',
+      endDate: '2018-07-08',
       summary: ' ',
-      highlights: [],
+      highlights: ["Akka", "Java" ,"Docker", "ReactJS"],
     },
     {
       company: 'Develop for Hydra',
