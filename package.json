@@ -15,7 +15,6 @@
     "lodash": ">=4.17.13",
     "lodash.template": ">=4.5.0",
     "extend": ">=3.0.2",
-    "lodash": ">=4.17.11",
     "eslint": "^5.16.0",
     "gh-pages": "^1.1.0",
     "react": "15.3.2",
