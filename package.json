@@ -8,7 +8,7 @@
     "merge": ">=1.2.1",
     "jquery": ">=3.5.0",
     "js-yaml": ">=3.13.1",
-    "handlebars": ">=4.3.0",
+    "handlebars": ">=4.4.5",
     "underscore.string": ">=3.3.5",
     "react-dev-utils": ">=5.0.2",
     "webpack-dev-server": ">=3.1.11",
