@@ -5,7 +5,7 @@
     "mem": ">=4.0.0",
     "macaddress": ">=0.2.9",
     "stringstream": ">=0.0.6",
-    "merge": ">=1.2.1",
+    "merge": ">=2.1.1",
     "jquery": ">=3.5.0",
     "js-yaml": ">=3.13.1",
     "handlebars": ">=4.5.3",
