@@ -197,16 +197,36 @@ export const person = {
     },
     {
       name: 'Web Development',
-      level: '60',
+      level: '80',
       keywords: [ 'reactjs', 'angular'],
     },
     {
-      name: 'python',
+      name: 'Java',
       level: '85',
+      keywords: [ 'Spring boot'],
+    },
+    {
+      name: 'C#',
+      level: '80',
+      keywords: [ '.net', 'powershell'],
+    },
+    {
+      name: 'python',
+      level: '95',
       keywords: [
         "life is short",
       ],
-    }
+    },
+    {
+      name: 'cloud',
+      level: '90',
+      keywords: [
+        "AWS",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+      ],
+    },
   ],
   references:[
     {
