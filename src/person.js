@@ -47,9 +47,11 @@ export const person = {
       •	AI Audit Tool Development: Leveraged OCR and NLP to create an innovative AI tool for assurance services.<br>\
       •	Digital Solution Leadership: Led teams in developing impactful digital solutions for Tax and Assurance businesses.<br>\
     Example Solution:<br>\
-      •	Tax Solution: Contributed to the development of a digital tax solution (Link: https://digitalpfictesting.pwchk.com/en/home.html)<br>\
+      •	Tax Solution: Contributed to the development of a digital tax solution <br>\
+       (Link:[https://digitalpfictesting.pwchk.com/en/home.html](https://digitalpfictesting.pwchk.com/en/home.html))<br>\
     Technical Expertise<br>\
-      •	Distributed Job Management: Designed and built Doradilla, a distributed job management library on Akka Cluster, used in all PwC digital solutions to address high concurrency and resource management challenges (More information: https://wherby.github.io/doradilla/).<br>\
+      •	Distributed Job Management: Designed and built Doradilla, a distributed job management library on Akka Cluster, used in all PwC digital solutions to address high concurrency and resource management challenges\
+       (More information: [https://wherby.github.io/doradilla/](https://wherby.github.io/doradilla/introduction/index.html)).<br>\
       •	Financial Data Management: Developed a robust solution to handle the processing',
       highlights: ["Scala", "Play", "ReactJS", "Slick", "Kubernate"],
     },
@@ -75,7 +77,7 @@ export const person = {
       •	In case of application crashes, Hydra detects the failure in a timely manner and automatically redeploys the application on a healthy node.<br>\
       •	Additionally, Hydra integrates with Akka Cluster to detect node failures.<br>\
       •	Upon detecting a node failure, Hydra seamlessly redeploys all affected applications to available nodes within the cluster.<br>\
-      •	For more information on Hydra, please refer to: https://wherby.github.io/introduction-to-hydra/',
+      •	For more information on Hydra, please refer to: [https://wherby.github.io/introduction-to-hydra/](https://wherby.github.io/introduction-to-hydra/)',
       highlights: ['HA container', 'Lambda Service', 'Akka Cluster'],
     },
     {
@@ -152,6 +154,13 @@ export const person = {
       releaseDate: '2022-10-1',
       website: 'https://wherby.github.io/doradilla/overview.html',
       summary: 'Introduction to doradilla, a distributed job management library on Akka Cluster, used in all PwC digital solutions to address high concurrency and resource management challenges',
+    },
+    {
+      name: 'Technical blogs',
+      publisher: '',
+      releaseDate: '2021-10-1',
+      website: 'https://wherby.github.io/docs/',
+      summary: 'Technical blogs about issue, bug and design',
     },
     {
       name: 'Using Akka Cluster to create HA container--- Introduction to Hydra',
