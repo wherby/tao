@@ -10,7 +10,7 @@
     "js-yaml": ">=3.13.1",
     "handlebars": ">=4.7.7",
     "underscore.string": ">=3.3.5",
-    "react-dev-utils": ">=11.0.4",
+    "react-dev-utils": ">=12.0.1",
     "webpack-dev-server": ">=3.1.11",
     "lodash": ">=4.17.21",
     "lodash.template": ">=4.5.0",
