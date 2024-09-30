@@ -16,7 +16,7 @@
     "lodash.template": ">=4.5.0",
     "extend": ">=3.0.2",
     "eslint": "^5.16.0",
-    "gh-pages": "^1.1.0",
+    "gh-pages": "^5.0.0",
     "react": "15.3.2",
     "react-awesome-resume": "^0.1.0",
     "react-dom": "15.3.2",
