@@ -7,8 +7,9 @@ export const person = {
     picture: './tao.jpg',
     // email: 'erlich@piedpiper.com',
     phone: '86 139 1750 ****',
+    email:'scuipio33@gmail.com',
     website: 'https://wherby.github.io/',
-    summary: '"enthusiastic about new tech : reactive, stream, monadic, actor, dynamic, fast data, cluster, "',
+    summary: '"enthusiastic about new tech : reactive, stream, monadic, actor, dynamic, fast data, cluster"',
     location: {
       address: ' ',
       postalCode: '200211',
@@ -22,17 +23,34 @@ export const person = {
         username: 'wherby',
         url: 'https://github.com/wherby',
       },
+      {
+        network: 'Linkedin',
+        username: 'tao-zhou',
+        url: 'https://www.linkedin.com/in/tao-zhou-92102641/',
+      },
+      {
+        network: 'Docs',
+        username: 'docs',
+        url: 'https://wherby.github.io/docs/',
+      },
     ],
   },
   work: [
     {
       company: 'PwC',
-      position: 'Senior Solution Specialist',
+      position: 'Senior Solution manager',
       website: '',
       startDate: '2018-07-09',
-      endDate: 'present',
-      summary: 'Join PwC Digtal Solution team, setup Scala based development team from zero,\
-        lead the development for PFIC project',
+      endDate: '2024-07-31',
+      summary: 'Technical Lead: Built high-performing technical teams from scratch at PwC.<br>\
+      •	Scala and Play Framework Mentor: Empowered new hires to become proficient in the Scala technical stack with Play framework.<br>\
+      •	AI Audit Tool Development: Leveraged OCR and NLP to create an innovative AI tool for assurance services.<br>\
+      •	Digital Solution Leadership: Led teams in developing impactful digital solutions for Tax and Assurance businesses.<br>\
+    Example Solution:<br>\
+      •	Tax Solution: Contributed to the development of a digital tax solution (Link: https://digitalpfictesting.pwchk.com/en/home.html)<br>\
+    Technical Expertise<br>\
+      •	Distributed Job Management: Designed and built Doradilla, a distributed job management library on Akka Cluster, used in all PwC digital solutions to address high concurrency and resource management challenges (More information: https://wherby.github.io/doradilla/).<br>\
+      •	Financial Data Management: Developed a robust solution to handle the processing',
       highlights: ["Scala", "Play", "ReactJS", "Slick", "Kubernate"],
     },
     {
@@ -41,7 +59,8 @@ export const person = {
       website: '',
       startDate: '2018-01-26',
       endDate: '2018-07-08',
-      summary: ' ',
+      summary: 'Joined Oracle to develop a PaaS platform leveraging Docker technology.<br>\
+      Designed and implemented a job management system for the PaaS platform using Java. ',
       highlights: ["Akka", "Java" ,"Docker", "ReactJS"],
     },
     {
@@ -50,11 +69,13 @@ export const person = {
       website: 'https://wherby.github.io/introduction-to-hydra/',
       startDate: '2017-09-01',
       endDate: '2018-01-01',
-      summary: 'Create a High available container based on Akka Cluster, which will detect the failure in consistent time. The Hydra Cluster is based on Akka Cluster,\
-       which is use a container to deploy application: If the application crash, the container will report to Hydra, Hydra will redeploy the application to another node.\
-        If the node fails, then the Akka Cluster will detect the node failure and then report the failure to Hydra, then Hydra will redeploy the apps on the node to other nodes.\
-        \r \
-        Use the Hydra to create Lambda service.  https://wherby.github.io/create-lambda-service/',
+      summary: 'High Availability Container with Hydra <br>\
+      •	Developed Hydra, a highly available container solution built on Akka Cluster.<br>\
+      •	Hydra uses containerization for application deployment.<br>\
+      •	In case of application crashes, Hydra detects the failure in a timely manner and automatically redeploys the application on a healthy node.<br>\
+      •	Additionally, Hydra integrates with Akka Cluster to detect node failures.<br>\
+      •	Upon detecting a node failure, Hydra seamlessly redeploys all affected applications to available nodes within the cluster.<br>\
+      •	For more information on Hydra, please refer to: https://wherby.github.io/introduction-to-hydra/',
       highlights: ['HA container', 'Lambda Service', 'Akka Cluster'],
     },
     {
@@ -63,11 +84,13 @@ export const person = {
       website: '',
       startDate: '2014-09-09',
       endDate: '2017-09-08',
-      summary: 'Using AngularJS and Mosaic web framework as frontend and using Play framework of Scala (Function program language running on JVM) with Cassandra as backend. \
-       The platform which is using cloud collaboration and visualization service of Autodesk is deployed on AWS and processing data from Autodesk customers.\
-       \r\
-Develop web portal using Spark for web services monitor in Kepler project.\r\
-Develop core service (Derivative Service) of Autodesk using Scala.\
+      summary: 'Autodesk Cloud Platform <br>\
+      •	Contributed to the development of SaaS software on Autodesk\'s cloud platform. <br>\
+      •	Built front-end applications using AngularJS and Mosaic, and back-end services using Scala\'s Play framework and Cassandra database.<br>\
+      •	Deployed applications on AWS, leveraging Autodesk\'s cloud collaboration and visualization services to process customer data.<br>\
+      •	Developed a web portal using Spark for monitoring web services within the Kepler project.<br>\
+      •	Created the core Derivative Service for Autodesk using Scala.<br>\
+      •	Utilized a robust technology stack including Play, Akka, Spark, Mesos, Cassandra, Docker, Hadoop, AWS, and Jenkins.<br>\
 ', 
       highlights: ['Scala', 'Akka', "AngularJS", "Cloud service", "Aws" , "Cassandra"],
     },
@@ -77,10 +100,10 @@ Develop core service (Derivative Service) of Autodesk using Scala.\
       website: '',
       startDate: '2011-09-09',
       endDate: '2014-08-20',
-      summary: '2009.07—2010.11 work as a RS member and RS reviewer for code review for the team members. Test the Web Service protocol of workflow and info path for Microsoft SharePoint. \r\
-                2010.11—2011.03 work as a Stack member for Lync Server testing, using C# language to implement SIP/SDP stack of Communicator, \
-                test protocol for audio/video transmission using RTP and protocol for web authentication \r\
-                  2011.03 –2011.09 work as a Project Owner to manage a team for Lync server testing, implement the stack of Call park service.\
+      summary: 'EMC - Software <br>\
+      •	Self-Adaptive Automation Framework: Developed a novel, self-adaptive test automation framework using C# unit testing as a foundation. This framework could autonomously generate test cases based on target software modifications. Received second place at the EMC China COE QA Council Symposium 2012 for this innovation (Leveraged PowerShell and ScaleOut technologies).<br>\
+      •	Test Process Optimization: Built a web-based platform to monitor and analyze project bug status, providing valuable insights through statistical reporting.<br>\
+      •	VMware Integration Testing: Designed and implemented an automated test framework using Test Complete for VMware VSI FLEX integration testing.<br>\
       ', 
       highlights: ['C#', 'python', "Powershell", "Javascript", "Storage" , "Automation framework"],
     },
@@ -90,16 +113,12 @@ Develop core service (Derivative Service) of Autodesk using Scala.\
       website: '',
       startDate: '2009-07-15',
       endDate: '2011-08-20',
-      summary: 'Develop a new automation test framework which could self-adapting to the target software modification and the framework will auto-generate test cases for the target software. \
-      The test framework based on Unit test of C#, and there are many components which designed by me: \r\
-      Monitor which will auto-generate class for test object (Powershell cmdlet) \r\
-      Case generator which will generate test cases for test object\r\
-      Test driver which will automatically deploy test suit and publish test result\r\
-       Result web portal which will display test result of each test round\r\
-       Log analyze tool which for test result analyze\r\
-       And the paper for the framework wins the second prize of EMC China COE QA Council Symposium 2012 (See Powershell,  ScaleOut  ).\r\
-        The paper for the web portal win the third prize of EMC China COE QA Council Symposium 2013.\
-          Develop a web site to monitor the project bug status. Generate statistic views for project.\
+      summary: 'Wicresoft - Microsoft PET3<br>\
+      •	Joined Wicresoft as a vendor resource for Microsoft\'s PET3 group.<br>\
+      •	Led a team responsible for Lync server testing as Project Owner.<br>\
+      •	Implemented the Call Park service stack.<br>\
+      •	Developed SIP/SDP stacks for Communicator using C#.<br>\
+      •	Conducted protocol testing for audio/video transmission (RTP) and web authentication.<br>\
       ', 
       highlights: ['C#', 'Hyper-v', "Spec Explorer", "Powershell", "SharePoint" ],
     },
@@ -127,6 +146,13 @@ Develop core service (Derivative Service) of Autodesk using Scala.\
     },
   ],
   publications: [
+    {
+      name: 'Job manage system which will handle the job request in reactive way',
+      publisher: '',
+      releaseDate: '2022-10-1',
+      website: 'https://wherby.github.io/doradilla/overview.html',
+      summary: 'Introduction to doradilla, a distributed job management library on Akka Cluster, used in all PwC digital solutions to address high concurrency and resource management challenges',
+    },
     {
       name: 'Using Akka Cluster to create HA container--- Introduction to Hydra',
       publisher: '',
@@ -172,6 +198,25 @@ Develop core service (Derivative Service) of Autodesk using Scala.\
         "life is short",
       ],
     }
+  ],
+  references:[
+    {
+      name:'Leetcode',
+      reference:'Leetcode profile: https://leetcode.cn/u/taoz-kc/',
+      url:'./leetcode.png'
+    },
+    {
+      name:'Hacker rank',
+      reference:'Hacker rank profile: https://www.hackerrank.com/h187225577?hr_r=1',
+      url:'./hackerrank.jpg'
+    },
+    {
+    name:'Google AI chanllege 2010',
+    reference:'The photo is the snap for rank list (rank 18 of more than 2400 competitors from all over the world) of the Google AI challenge 2010, but not the final result. May the information help to demonstrate my ability.',
+    url:'./google.jpg'
+  },
+    
+
   ]
 };
 
@@ -265,6 +310,7 @@ export const interestsType = PropTypes.arrayOf(PropTypes.shape({
 export const referencesType = PropTypes.arrayOf(PropTypes.shape({
   name: PropTypes.string,
   reference: PropTypes.string,
+  url: PropTypes.string,
 })).isRequired;
 
 export const resumeType = PropTypes.shape({

@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Resume from 'react-awesome-resume'
+import Resume from './resume'
 import 'semantic-ui-css/semantic.min.css';
 
 const myJSONResume = require('./person.js').person
